@@ -11,9 +11,9 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="mx-9 w-12 h-12 w-auto"/>
     </div>
     <div className="m-8 flex items-center justify-center gap-6 text-2xl">
-        <img src={ln} alt="LinkedIn Icon" className="h-6 w-auto" />
-        <img src={gth} alt="Github Icon" className="h-6 w-auto" />
-        <img src={mail} alt="mail Icon" className="h-6 w-auto filter invert" />
+        <a href="https://www.linkedin.com/in/kaushal-k-90927222a"  target="_blank" rel="noopener noreferrer" ><img src={ln} alt="LinkedIn Icon" className="h-6 w-auto" /> </a>
+        <a href="https://github.com/kaushalkumar08"  target="_blank" rel="noopener noreferrer" ><img src={gth} alt="Github Icon" className="h-6 w-auto" />  </a>
+        <a href="mailto:kaushal01adv@gmail.com"><img src={mail} alt="mail Icon" className="h-6 w-auto filter invert" /> </a>
     </div>
     </nav>
   );
