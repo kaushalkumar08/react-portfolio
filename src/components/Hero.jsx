@@ -1,7 +1,7 @@
 import { Hero_content } from "../constants"
 import profile from "../assets/images/logo/profile.png";
 import { motion } from "framer-motion";
-import { duration } from "@material-ui/core";
+
 
 const container = (delay) => ({
   hidden : {x: -100, opacity: 0},
